@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RESUME</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<h1>My Resume</h1>
+<div class="price__img">
+<img src="1.png">
+</div>
+<div class="price__table">
+        <table>
+            <thead>
+                <tr>
+                    <td>Type of info</td>
+                    <td>Info about me</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>First Name, Last Name</td>
+                    <td>Nadzeya Lifar</td>    
+                </tr>
+                <tr>
+                    <td>Contact Info</td>
+                    <td>e-mail: nadik.lifar@gmail.com<br>
+                         tel: +375(29)1104010</td>
+                </tr>
+                <tr>
+                    <td>Summary</td>
+                    <td>Hard-working web developer with a flair for creating elegant solutions in the least amount of time. Developed an ecommerce webapp, customer web portal, documentary launch website, and donations webapp for a local charity. Passionate about software architecture and cloud computing. Regular attendee of web developer meetups and hackathons.</td>
+                   
+                </tr>
+                <tr>
+                    <td>Skills</td>
+                    <td>HTML5, CSS, Javascript, Git</td>
+                    
+                </tr>
+                <tr>
+                        <td>Code examples</td>
+                        <td>(function () {
+
+                            'use strict'; 
+                        
+                         (function showUserInfo () {
+                        
+                         let firstName = prompt('Введите имя');
+                         let str = firstName.trim();
+                         
+                         let lastName = prompt('Введите фамилию');
+                         let str1 = lastName.trim();
+                         
+                         while (firstName == '' || firstName == null) {
+                             firstName = prompt ('Введите Имя еще раз, данные не корректны');
+                         }
+                         
+                         while (lastName == '' || lastName == null) {
+                             lastName = prompt ('Введите Фамилию еще раз, данные не корректны');
+                         }
+                         let gender = prompt('Введите Ваш пол М или Ж');
+                         
+                         while (!(gender.toUpperCase() == 'М' || gender.toUpperCase() == 'Ж')) {
+                             gender = prompt ('Введите Введите пол еще раз, данные не корректны'); 
+                         }
+                         
+                         let age = +prompt('Введите Ваш возраст в годах');//возраст преобразуем в число
+                         
+                         while (typeof (age) != 'number' || age == null || age < = 0) {
+                             age = +prompt ('Введите Возраст еще раз, данные не корректны');
+                         }
+                        
+                         function checkRetired () {
+                         if ((gender.toUpperCase() == 'M' && age >= 63) || (gender.toUpperCase() == 'Ж' && age >=58)) {
+                             return 'Да';
+                         }
+                             else {
+                             return 'Нет';
+                             }
+                            }
+                        
+                         alert ('Полное имя:' + ' ' + str + ' ' + str1 + '\n'
+                                 + 'Пол:' + ' ' + gender.toUpperCase() + '\n'
+                                 + 'На пенсии:' + ' ' + checkRetired());
+                        
+                            })()
+                         
+                         }()); </td>
+                        
+                    </tr>
+                <tr>
+                        <td>Experience</td>
+                        <td>"Website development using html and css" courses at IT-Academy,<br>
+                            "JavaScript web application development" courses at IT-Academy,<br>
+                            interactive courses at HTMLAcademy,<br>
+                            <a href = "https://noanails-e41c2.firebaseapp.com" target="blank">Latest code</a></td>
+                        
+                </tr>
+                    <tr>
+                        <td>Education</td>
+                        <td>"Website development using html and css" courses at IT-Academy,<br>
+                            "JavaScript web application development" courses at IT-Academy,<br>
+                            interactive courses at HTMLAcademy</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>English</td>
+                        <td>Upper-intermediate level</td>
+                      
+                    </tr>
+                  
+         </table>
+    </div>
+
+</body>
+</html>
