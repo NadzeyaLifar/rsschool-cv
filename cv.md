@@ -1,12 +1,12 @@
 # Hello this is my cv
-![My photo](/rsscholl-cv/1.png)
-1. First Name, Last Name:	Nadzeya Lifar
-2. Contact Info:
-	1. e-mail: nadik.lifar@gmail.com
-    2. tel: +375(29)110-40-10
-3. Summary:	Hard-working web developer with a flair for creating elegant solutions in the least amount of time. Developed an ecommerce webapp, customer web portal, documentary launch website, and donations webapp for a local charity. Passionate about software architecture and cloud computing. Regular attendee of web developer meetups and hackathons.
-4. Skills:	HTML5, CSS, Javascript, Git
-5. Code examples: (function () {
+
+1. **First Name, Last Name:**	Nadzeya Lifar
+2. **Contact Info:**
+	* e-mail: nadik.lifar@gmail.com
+    * tel: +375(29)110-40-10
+3. **Summary:**	Hard-working web developer with a flair for creating elegant solutions in the least amount of time. Developed an ecommerce webapp, customer web portal, documentary launch website, and donations webapp for a local charity. Passionate about software architecture and cloud computing. Regular attendee of web developer meetups and hackathons.
+4. **Skills:**	HTML5, CSS, Javascript, Git
+5. **Code examples:** ```(function () {
 
     'use strict'; 
 
@@ -25,15 +25,6 @@
  while (lastName == '' || lastName == null) {
      lastName = prompt ('Введите Фамилию еще раз, данные не корректны');
  }
- 
- /*let Gender = confirm('Ваш пол мужской?');
- 
- if (Gender === true) {
-     (Gender = 'М');
- } else {
-     (Gender = 'Ж');
- }*/
-  
  let gender = prompt('Введите Ваш пол М или Ж');
  
  while (!(gender.toUpperCase() == 'М' || gender.toUpperCase() == 'Ж')) {
@@ -61,8 +52,12 @@
 
     })()
  
- }()); 
- 5. Experience	"Website development using html and css" courses at IT-Academy,
+ }()); ```
+ 6. **Experience:**	"Website development using html and css" courses at IT-Academy,
 "JavaScript web application development" courses at IT-Academy,
 interactive courses at HTMLAcademy,
-[My cite](https://noanails-e41c2.firebaseapp.com)
+*[My SITE](https://noanails-e41c2.firebaseapp.com)*
+7. **Education:** "Website development using html and css" courses at IT-Academy,
+"JavaScript web application development" courses at IT-Academy,
+interactive courses at HTMLAcademy
+8. **English:**	Upper-intermediate level
