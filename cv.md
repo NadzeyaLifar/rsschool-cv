@@ -6,7 +6,8 @@
     * tel: +375(29)110-40-10
 3. **Summary:**	Hard-working web developer with a flair for creating elegant solutions in the least amount of time. Developed an ecommerce webapp, customer web portal, documentary launch website, and donations webapp for a local charity. Passionate about software architecture and cloud computing. Regular attendee of web developer meetups and hackathons.
 4. **Skills:**	HTML5, CSS, Javascript, Git
-5. **Code examples:** ```(function () {
+5. **Code examples:**
+ `(function () {
 
     'use strict'; 
 
@@ -52,7 +53,8 @@
 
     })()
  
- }()); ```
+ }()); `
+
  6. **Experience:**	"Website development using html and css" courses at IT-Academy,
 "JavaScript web application development" courses at IT-Academy,
 interactive courses at HTMLAcademy,
